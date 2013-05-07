@@ -1,5 +1,5 @@
 set nocompatible
-syntax on
+syntax off
 execute pathogen#infect()
 call pathogen#incubate()
 call pathogen#helptags()
