@@ -8,3 +8,4 @@ colorscheme desert256
 set t_Co=256
 set wildmenu
 set wildmode=longest,list
+set laststatus=2
