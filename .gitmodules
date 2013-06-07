@@ -5,5 +5,5 @@
 	path = bundle/vim-clojure-static
 	url = https://github.com/guns/vim-clojure-static.git
 [submodule "vim-perl"]
-	path = vim-perl
+	path = bundle/vim-perl
 	url = https://github.com/vim-perl/vim-perl.git
