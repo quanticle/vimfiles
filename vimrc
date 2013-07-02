@@ -10,3 +10,4 @@ set wildmenu
 set wildmode=longest,list
 set laststatus=2
 filetype indent off
+set backspace=2
