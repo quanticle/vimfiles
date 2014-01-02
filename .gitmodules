@@ -13,6 +13,3 @@
 [submodule "bundle/vim-airline"]
 	path = bundle/vim-airline
 	url = https://github.com/bling/vim-airline
-[submodule "bundle/vim-airline-tomato"]
-	path = bundle/vim-airline-tomato
-	url = https://github.com/Zuckonit/vim-airline-tomato.git
