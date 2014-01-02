@@ -10,6 +10,3 @@
 [submodule "bundle/ansiesc"]
 	path = bundle/ansiesc
 	url = https://github.com/vim-scripts/AnsiEsc.vim.git
-[submodule "bundle/vim-pomodoro"]
-	path = bundle/vim-pomodoro
-	url = https://github.com/mnick/vim-pomodoro.git
