@@ -18,3 +18,7 @@ if has("gui_running")
     set guifont=Consolas:h11:cANSI
   endif
 endif
+
+"Backups are for quiche eaters
+set noswapfile 
+
