@@ -22,3 +22,9 @@ endif
 "Backups are for quiche eaters
 set noswapfile 
 
+"Make gVim look a bit more like traditional vim
+set guioptions-=l
+set guioptions-=r
+set guioptions-=b
+set guioptions-=m
+set guioptions-=T
