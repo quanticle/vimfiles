@@ -28,3 +28,7 @@ set guioptions-=r
 set guioptions-=b
 set guioptions-=m
 set guioptions-=T
+
+"No bells
+set visualbell
+set t_vb=
