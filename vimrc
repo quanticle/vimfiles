@@ -29,6 +29,16 @@ set guioptions-=b
 set guioptions-=m
 set guioptions-=T
 
+hi VimwikiHeader1 guifg=#E77471 gui=bold
+hi VimwikiHeader2 guifg=#B2C248 gui=bold
+hi VimwikiHeader3 guifg=#6698FF gui=bold
+hi VimwikiHeader4 guifg=#7D0552 gui=bold
+hi VimwikiHeader5 guifg=#00FFFF
+hi VimwikiHeader6 guifg=#FFFF00
+
 "No bells
 set visualbell
-set t_vb=
+set t_vb=""
+
+"I don't understand why gVim overrides the bell settings...
+autocmd GUIEnter * set vb t_vb=
