@@ -42,3 +42,6 @@ set t_vb=""
 
 "I don't understand why gVim overrides the bell settings...
 autocmd GUIEnter * set vb t_vb=
+
+"Disable link shortening in vimwiki
+let g:vimwiki_url_maxsave = 0
