@@ -45,3 +45,6 @@ autocmd GUIEnter * set vb t_vb=
 
 "Disable link shortening in vimwiki
 let g:vimwiki_url_maxsave = 0
+
+"Disable the mouse
+set mouse-=a
