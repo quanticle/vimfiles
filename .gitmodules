@@ -25,3 +25,6 @@
 [submodule "bundle/vim-ps1"]
 	path = bundle/vim-ps1
 	url = https://github.com/PProvost/vim-ps1.git
+[submodule "bundle/mediawiki.vim"]
+	path = bundle/mediawiki.vim
+	url = https://github.com/chikamichi/mediawiki.vim.git
