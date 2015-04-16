@@ -50,3 +50,4 @@ let g:vimwiki_url_maxsave = 0
 set mouse-=a
 
 autocmd BufEnter * :syntax sync fromstart
+let g:sql_type_default = "sqlserver"
