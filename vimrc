@@ -48,3 +48,5 @@ let g:vimwiki_url_maxsave = 0
 
 "Disable the mouse
 set mouse-=a
+
+autocmd BufEnter * :syntax sync fromstart
