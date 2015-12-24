@@ -5,7 +5,7 @@ execute pathogen#infect()
 call pathogen#incubate()
 call pathogen#helptags()
 filetype plugin on
-colorscheme molokai
+colorscheme desert256
 set wildmenu
 set wildmode=longest,list
 set laststatus=2
@@ -51,3 +51,6 @@ set mouse-=a
 
 autocmd BufEnter * :syntax sync fromstart
 let g:sql_type_default = "sqlserver"
+
+"Life is too short for strict case matching
+set ignorecase
