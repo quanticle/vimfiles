@@ -28,3 +28,6 @@
 [submodule "bundle/mediawiki.vim"]
 	path = bundle/mediawiki.vim
 	url = https://github.com/chikamichi/mediawiki.vim.git
+[submodule "bundle/wells-colorcheme.vim"]
+	path = bundle/wells-colorcheme.vim
+	url = https://github.com/wellsjo/wells-colorscheme.vim.git
