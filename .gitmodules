@@ -19,9 +19,6 @@
 [submodule "bundle/typescript-vim"]
 	path = bundle/typescript-vim
 	url = https://github.com/leafgarland/typescript-vim.git
-[submodule "bundle/vim-csharp"]
-	path = bundle/vim-csharp
-	url = https://github.com/OrangeT/vim-csharp.git
 [submodule "bundle/vim-ps1"]
 	path = bundle/vim-ps1
 	url = https://github.com/PProvost/vim-ps1.git
@@ -31,3 +28,6 @@
 [submodule "bundle/wells-colorcheme.vim"]
 	path = bundle/wells-colorcheme.vim
 	url = https://github.com/wellsjo/wells-colorscheme.vim.git
+[submodule "bundle/vim-csharp"]
+	path = bundle/vim-csharp
+	url = https://github.com/quanticle/vim-csharp
