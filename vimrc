@@ -5,7 +5,7 @@ execute pathogen#infect()
 call pathogen#incubate()
 call pathogen#helptags()
 filetype plugin on
-colorscheme desert256
+colorscheme molokai
 set wildmenu
 set wildmode=longest,list
 set laststatus=2
