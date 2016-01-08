@@ -31,3 +31,6 @@
 [submodule "bundle/vim-csharp"]
 	path = bundle/vim-csharp
 	url = https://github.com/quanticle/vim-csharp
+[submodule "bundle/calendar"]
+	path = bundle/calendar
+	url = https://github.com/itchyny/calendar.vim
