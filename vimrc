@@ -88,8 +88,3 @@ function! GuiTabLabel()
 endfunction
 set guitablabel=%{GuiTabLabel()}
 
-"Fold settings
-set foldmethod=manual
-set foldnestmax=10
-set nofoldenable
-set foldlevel=1
