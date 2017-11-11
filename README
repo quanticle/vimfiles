@@ -5,7 +5,8 @@ Quick setup:
 2. cd vimfiles
 3. git submodule init
 4. git submodule update
-5. (On Linux) ln -s vimrc ~/.vimrc
+5. (On Unix) ln -s vimrc ~/.vimrc
+6. (On Unix) ln -s ~/vimfiles ~/.vim
 
 To add a new Pathogen bundle: 
   git submodule add <bundle repo> bundle/<name of bundle>
