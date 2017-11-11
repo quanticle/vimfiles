@@ -12,5 +12,5 @@ To add a new Pathogen bundle:
   git submodule init bundle/<name of bundle>
 
 To remove a Pathogen bundle:
-  git submodule deinit bundle/<name of bundle>
-  Remove the corresponding entries in .gitmodules
+  git rm bundle/<submodule>
+  rm -rf .git/modules/bundle/<submodule>
