@@ -6,3 +6,11 @@ Quick setup:
 3. git submodule init
 4. git submodule update
 5. (On Linux) ln -s vimrc ~/.vimrc
+
+To add a new Pathogen bundle: 
+  git submodule add <bundle repo> bundle/<name of bundle>
+  git submodule init bundle/<name of bundle>
+
+To remove a Pathogen bundle:
+  git submodule deinit bundle/<name of bundle>
+  Remove the corresponding entries in .gitmodules
