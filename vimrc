@@ -16,6 +16,8 @@ set number
 if has("gui_running")
   if has("gui_win32")
     set guifont=Consolas:h11:cANSI
+  else 
+    set guifont=Inconsolata:h14
   endif
 else 
   set term=xterm

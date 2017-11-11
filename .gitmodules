@@ -27,7 +27,7 @@
 	url = https://github.com/wellsjo/wells-colorscheme.vim.git
 [submodule "bundle/vim-csharp"]
 	path = bundle/vim-csharp
-	url = https://github.com/quanticle/vim-csharp
+	url = git@github.com:OrangeT/vim-csharp.git
 [submodule "bundle/vim-airline-themes"]
 	path = bundle/vim-airline-themes
 	url = https://github.com/vim-airline/vim-airline-themes.git
