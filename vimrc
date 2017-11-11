@@ -17,6 +17,11 @@ if has("gui_running")
   if has("gui_win32")
     set guifont=Consolas:h11:cANSI
   endif
+else 
+  set term=xterm
+  set t_Co=256
+  let &t_AB="\e[48;5;%dm"
+  let &t_AF="\e[38;5;%dm"
 endif
 
 "Backups are for quiche eaters
@@ -28,13 +33,6 @@ set guioptions-=r
 set guioptions-=b
 set guioptions-=m
 set guioptions-=T
-
-hi VimwikiHeader1 guifg=#E77471 gui=bold
-hi VimwikiHeader2 guifg=#B2C248 gui=bold
-hi VimwikiHeader3 guifg=#6698FF gui=bold
-hi VimwikiHeader4 guifg=#7D0552 gui=bold
-hi VimwikiHeader5 guifg=#00FFFF
-hi VimwikiHeader6 guifg=#FFFF00
 
 "No bells
 set visualbell
@@ -55,36 +53,5 @@ let g:sql_type_default = "sqlserver"
 "Life is too short for strict case matching
 set ignorecase
 
-"Add tab numbers to tabs for easy switching
-set showtabline=2 " always show tabs in gvim, but not vim
-" set up tab labels with tab number, buffer name, number of windows
-function! GuiTabLabel()
-  let label = ''
-  let bufnrlist = tabpagebuflist(v:lnum)
-  " Add '+' if one of the buffers in the tab page is modified
-  for bufnr in bufnrlist
-    if getbufvar(bufnr, "&modified")
-      let label = '+'
-      break
-    endif
-  endfor
-  " Append the tab number
-  let label .= v:lnum.': '
-  " Append the buffer name
-  let name = bufname(bufnrlist[tabpagewinnr(v:lnum) - 1])
-  if name == ''
-    " give a name to no-name documents
-    if &buftype=='quickfix'
-      let name = '[Quickfix List]'
-    else
-      let name = '[No Name]'
-    endif
-  else
-    " get only the file name
-    let name = fnamemodify(name,":t")
-  endif
-  let label .= name
-  return label 
-endfunction
-set guitablabel=%{GuiTabLabel()}
-
+"Yank to the system clipboard by default
+set clipboard=unnamed
