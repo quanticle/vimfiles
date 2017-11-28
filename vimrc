@@ -63,4 +63,4 @@ noremap <F12> <Esc>:syntax sync fromstart<CR>
 inoremap <F12> <Esc>:syntax sync fromstart<CR>
 
 "Bind jj to esc
-imap jj <Esc>
+inoremap jj <Esc>
