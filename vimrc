@@ -61,3 +61,6 @@ set clipboard=unnamed
 "Bind F12 to command to re-highlight file
 noremap <F12> <Esc>:syntax sync fromstart<CR>
 inoremap <F12> <Esc>:syntax sync fromstart<CR>
+
+"Bind jj to esc
+imap jj <Esc>
