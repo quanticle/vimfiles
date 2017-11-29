@@ -64,3 +64,7 @@ inoremap <F12> <Esc>:syntax sync fromstart<CR>
 
 "Bind jj to esc
 inoremap jj <Esc>
+
+"Display tabs
+set list
+set listchars=tab:>-
