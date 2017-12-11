@@ -68,3 +68,6 @@ inoremap jj <Esc>
 "Display tabs
 set list
 set listchars=tab:>-
+
+"Keep vim from choking on unmatched backticks
+set nomodeline
