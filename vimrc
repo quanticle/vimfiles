@@ -71,3 +71,6 @@ set listchars=tab:>-
 
 "Keep vim from choking on unmatched backticks
 set nomodeline
+
+"Get some consistency in the way vim highlights LaTeX
+let g:tex_flavor = "latex"
